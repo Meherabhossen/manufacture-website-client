@@ -56,7 +56,6 @@ const OurService = () => {
                         <img src={image5} alt="Shoes" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
-                        <h2 class="card-title">Shoes!</h2>
                         <p className='text-black'>This our Tyre plants where we repair and service tyres</p>
                     </div>
                 </div>
