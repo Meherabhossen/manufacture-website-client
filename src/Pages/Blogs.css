@@ -1,24 +1,20 @@
 .blogs-Ans {
     padding-left: 30px;
     padding-right: 30px;
+    color: black;
 }
 
 .blogs-Ques {
-    color: red;
+    color:blue;
 }
 
 span {
-    color: red;
+    color:red;
 }
 
 .blogs-container {
-    border: 10px solid black;
+    border: 2px solid black;
     margin: 20px;
-    border-radius: 10px;
-    background-color: bisque;
-}
-
-.blogs-container:hover {
-    background-color: lemonchiffon;
-    transition-duration: 5s;
+    border-radius: 5px;
+    background-color: whitesmoke;
 }

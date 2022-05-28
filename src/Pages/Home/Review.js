@@ -32,7 +32,7 @@ const Review = () => {
                         </div>
                     </section>
                 </div>
-                <AddCustomerReview></AddCustomerReview>
+                {/* <AddCustomerReview></AddCustomerReview> */}
             </div>
         </div>
     );

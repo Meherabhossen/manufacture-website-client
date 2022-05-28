@@ -4,10 +4,6 @@ h1 {
     font: bold
 }
 
-h1:hover {
-    color: firebrick;
-    transition-duration: 1s;
-}
 
 .background {
     text-align: center;
@@ -20,15 +16,15 @@ h1:hover {
     text-align: center;
     padding-left: 15px;
     padding-right: 15px;
-    border: 5px solid;
+    border: 2px solid;
     border-radius: 10px;
     margin-top: 15px;
-    background-color: bisque;
-    color: crimson;
+    background-color: whitesmoke;
+    color: black;
 }
 
 .skill {
-    color: red;
+    color: black;
     font-size: xx-large;
     font: bold;
 }
