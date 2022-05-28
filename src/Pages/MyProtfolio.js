@@ -15,7 +15,7 @@ const MyProtfolio = () => {
             <ul className='skill'>I have some skill as a web developer:
                 <li>HTML,</li>
                 <li>Raw CSS,</li>
-                <li>Teilwind,Bootstrap</li>
+                <li>Tailwind,Bootstrap</li>
                 <li>React,React Route,React Bootstrap</li>
                 <li>E6 of Javascript</li>
                 <li>Node Js</li>
