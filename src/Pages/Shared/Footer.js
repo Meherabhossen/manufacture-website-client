@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='footer block'>
             <div className='personalIcon'>
                 <div className='flex'><a href=""><LocationMarkerIcon className='Icon'></LocationMarkerIcon></a>
-                    <b>22/6 North Lalbag , Dhaka-1205 , Bangladesh</b><br />
+                    <b> Dhaka-1205 , Bangladesh</b><br />
                 </div>
                 <div className='flex'>
                     <a href=""><PhoneIcon className='Icon'></PhoneIcon></a><b> Helpline:   +8801735123451, +8801574563201</b>
