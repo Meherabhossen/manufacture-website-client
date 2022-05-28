@@ -26,11 +26,11 @@ const MyProtfolio = () => {
             </ul>
             <p className='Link'>I did 20+ projectas as a developer</p>
             <p className='Link'>Such as:</p>
-            <a className='Link' href=" https://assignment-11-6f437.web.app/">Link-1</a>
+            <a className='Link' href=" https://assignment-11-6f437.web.app/" target="_blank">Link-1</a>
             <br />
-            <a className='Link' href=" https://moonlit-frangipane-0139fc.netlify.app/">Link-2</a>
+            <a className='Link' href=" https://moonlit-frangipane-0139fc.netlify.app/" target="_blank">Link-2</a>
             <br />
-            <a className='Link' href=" https://dulcet-praline-ca1196.netlify.app/">Link-2</a>
+            <a className='Link' href=" https://dulcet-praline-ca1196.netlify.app/" target="_blank">Link-2</a>
         </div >
     );
 };
