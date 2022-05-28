@@ -5,7 +5,7 @@ import { faCopyright } from '@fortawesome/free-solid-svg-icons'
 import { ChatAltIcon, LocationMarkerIcon, MailIcon, PhoneIcon, PhotographIcon, PlayIcon } from '@heroicons/react/solid'
 const Footer = () => {
     return (
-        <div className='footer block'>
+        <div className='footer block '>
             <div className='personalIcon'>
                 <div className='flex'><a href=""><LocationMarkerIcon className='Icon'></LocationMarkerIcon></a>
                     <b> Dhaka-1205 , Bangladesh</b><br />
