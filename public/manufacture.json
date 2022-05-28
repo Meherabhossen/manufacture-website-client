@@ -37,20 +37,20 @@
     },
     {
         "_id": 5,
-        "name": "Deforasting",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3aOWLFmnciMY6gVt7kaTsXzGv6p4OhwAvYg&usqp=CAU",
-        "description": "It is deforasting parts of refrigarator.It is very necessary for start refrigerator",
-        "minimumOrderQuantity": 30,
-        "availableOrderQuantity": 300,
-        "perUnitPrice": 170
+        "name": "Car Ac Compressor",
+        "image": "https://m.media-amazon.com/images/I/71A4pJvWdcL._SL1500_.jpg",
+        "description": "Best quality ac compressor",
+        "minimumOrderQuantity": 20,
+        "availableOrderQuantity": 100,
+        "perUnitPrice": 40000
     },
     {
         "_id": 6,
-        "name": "Buying guide",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSukl5wtyewe3uhjfgu-OBIF3IC0RsQJ_hTYA&usqp=CAU",
-        "description": "It is deforasting parts of refrigarator.It is very necessary for start refrigerator",
-        "minimumOrderQuantity": 10,
-        "availableOrderQuantity": 140,
-        "perUnitPrice": 1600
+        "name": "Steering knuckle",
+        "image": "https://thumbs.dreamstime.com/b/steering-knuckle-hub-carrier-part-suspension-system-bearing-car-white-background-spindles-uprights-131838739.jpg",
+        "description": "Good quality Steering knuckle",
+        "minimumOrderQuantity": 50,
+        "availableOrderQuantity": 500,
+        "perUnitPrice": 2000
     }
 ]
