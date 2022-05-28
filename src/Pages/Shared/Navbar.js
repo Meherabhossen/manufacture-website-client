@@ -23,7 +23,7 @@ const Navbar = () => {
         <li><Link to='/myprotfolio'>My-protfolio</Link></li>
     </>
     return (
-        <div className="navbar bg-accent">
+        <div className="navbar bg-indigo-500 text-white">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabindex="0" className="btn btn-ghost lg:hidden">
@@ -33,7 +33,7 @@ const Navbar = () => {
                         {manufacters}
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl">Manufacture-Website</a>
+                <a className="btn btn-ghost normal-case text-xl">Automobile PartsWebsite</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
