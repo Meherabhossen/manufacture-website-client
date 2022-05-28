@@ -33,7 +33,7 @@ const Navbar = () => {
                         {manufacters}
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl">Automobile PartsWebsite</a>
+                <a className="btn btn-ghost normal-case text-xl">Automobile Parts Website</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">

@@ -2,62 +2,62 @@ import React from 'react';
 import image from '../../Images/service-1.jpg';
 import image1 from '../../Images/service-2.jpg';
 import image2 from '../../Images/service-3.jpg';
-import image3 from '../../Images/service-4.jpg';
+import image3 from '../../Images/service-4.jfif';
 import image4 from '../../Images/service-5.jpg';
 import image5 from '../../Images/service-6.jpg';
 
 const OurService = () => {
     return (
         <div>
-            <h2 className='text-center text-blue-500 font-bold text-2xl mb-5'>Our Service</h2>
+            <h2 className='text-center text-blue-500 font-bold text-2xl mb-5'>Our Showroom Services</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-10">
-                < div class="card w-96 bg-red-300 shadow-xl" >
+                < div class="card w-96 bg-white shadow-xl" >
                     <figure class="px-10 pt-10">
                         <img src={image} alt="Shoes" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
-                        <p>He is Devid.He is one of the best expert person of my company.</p>
+                        <p className='text-black'>This is Jon.He is one of the best expert person of our showroom he fix the engin problem.</p>
                     </div>
                 </div >
-                <div class="card w-96 bg-red-300 shadow-xl">
+                <div class="card w-96  bg-white shadow-xl">
                     <figure class="px-10 pt-10">
                         <img src={image1} alt="Shoes" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
-                        <p>He is Jon.He is very skill to solve compresser problem.</p>
+                        <p className='text-black'>Besides manufacturing in our showrooms we also provide some tyre repairing </p>
                     </div>
                 </div>
-                <div class="card w-96 bg-red-300 shadow-xl">
+                <div class="card w-96  bg-white shadow-xl">
                     <figure class="px-10 pt-10">
                         <img src={image2} alt="Shoes" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
-                        <p>He is Kajol.He is junior enginner of our company.</p>
+                        <p className='text-black'>He is David.He use to works on the parts checking .</p>
                     </div>
                 </div>
-                <div class="card w-96 bg-red-300 shadow-xl">
+                <div class="card w-96  bg-white shadow-xl">
                     <figure class="px-10 pt-10">
                         <img src={image3} alt="Shoes" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
-                        <p>It is very common problen of refrigerator</p>
+                        <p className='text-black'>We also provide engin parts and services also</p>
                     </div>
                 </div>
-                <div class="card w-96 bg-red-300 shadow-xl">
+                <div class="card w-96  bg-white shadow-xl">
                     <figure class="px-10 pt-10">
                         <img src={image4} alt="Shoes" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <p className='text-black'>Regular checking of our engineers </p>
                     </div>
                 </div>
-                <div class="card w-96 bg-red-300 shadow-xl">
+                <div class="card w-96  bg-white shadow-xl">
                     <figure class="px-10 pt-10">
                         <img src={image5} alt="Shoes" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
                         <h2 class="card-title">Shoes!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <p className='text-black'>This our Tyre plants where we repair and service tyres</p>
                     </div>
                 </div>
             </div >
