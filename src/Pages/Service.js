@@ -2,7 +2,7 @@ import React from 'react';
 const Service = ({ service, setPurces }) => {
     const { name, image, description, minimumOrderQuantity, availableOrderQuantity, perUnitPrice } = service;
     return (
-        <div class="card w-96 bg-orange-400 shadow-xl">
+        <div class="card w-96 bg-white text-black shadow-xl">
             <figure class="px-10 pt-10">
                 <img src={image} alt="Shoes" class="rounded-xl" />
             </figure>

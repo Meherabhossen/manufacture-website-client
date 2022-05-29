@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 const ManageAllProducts = () => {
     const [manage, setManage] = useState([]);
     useEffect(() => {
-        fetch('https://afternoon-coast-43110.herokuapp.com/service')
+        fetch('https://secure-citadel-13503.herokuapp.com/service')
             .then(res => res.json())
             .then(data => setManage(data));
     }, [])

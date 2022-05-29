@@ -7,25 +7,14 @@ const AddProducts = () => {
 
     const [services, setServices] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/service')
+        fetch('https://secure-citadel-13503.herokuapp.com/service')
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
 
-    // const imageStorageKey = '29c637c89cff7e39043529065c0af1fe';
 
     const onSubmit = async data => {
-        // const image = data.image[0];
-        // const formData = new FormData();
-        // formData.append('image', image);
-        // const url = `https://api.imgbb.com/1/upload?key=${imageStorageKey}`;
-        // fetch(url, {
-        //     method: 'POST',
-        //     body: formData
-        // })
-        //     .then(res => res.json())
-        //     .then(result => {
-        //         console.log(result)
+        
         console.log(data)
         if (data) {
             toast.success('Product added successfully')
@@ -39,7 +28,7 @@ const AddProducts = () => {
                 Price: data.price,
                 image: data.image
             }
-            fetch('https://afternoon-coast-43110.herokuapp.com/product', {
+            fetch('https://secure-citadel-13503.herokuapp.com/product', {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json',
