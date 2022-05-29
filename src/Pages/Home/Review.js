@@ -32,8 +32,11 @@ const Review = () => {
                         </div>
                     </section>
                 </div>
-                {/* <AddCustomerReview></AddCustomerReview> */}
+                
             </div>
+
+        <AddCustomerReview></AddCustomerReview>
+
         </div>
     );
 }
