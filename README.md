@@ -5,3 +5,7 @@ Code link : [https://github.com/programming-hero-web-course1/manufacturer-websit
 Server link : [https://github.com/programming-hero-web-course1/manufacturer-website-server-side-Meherabhossen] (https://github.com/programming-hero-web-course1/manufacturer-website-server-side-Meherabhossen)
 
 Firebase link : [https://assignment-12-13363.web.app] (https://assignment-12-13363.web.app)
+
+Admin email : patimastan@gmail.com   
+
+Admin Password : Patimastan
